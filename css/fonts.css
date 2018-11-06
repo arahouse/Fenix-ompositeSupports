@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GothamPro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GothamPro/GothamPro.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro/GothamPro.woff") format("woff"), url("../fonts/GothamPro/GothamPro.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GothamPro-Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GothamPro-Black/GothamPro-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-Black/GothamPro-Black.woff") format("woff"), url("../fonts/GothamPro-Black/GothamPro-Black.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GothamPro-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GothamPro-Bold/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-Bold/GothamPro-Bold.woff") format("woff"), url("../fonts/GothamPro-Bold/GothamPro-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GothamPro-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GothamPro-Light/GothamPro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-Light/GothamPro-Light.woff") format("woff"), url("../fonts/GothamPro-Light/GothamPro-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GothamPro-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GothamPro-Medium/GothamPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-Medium/GothamPro-Medium.woff") format("woff"), url("../fonts/GothamPro-Medium/GothamPro-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "MinionPro-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MinionPro-Regular/MinionPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MinionPro-Regular/MinionPro-Regular.woff") format("woff"), url("../fonts/MinionPro-Regular/MinionPro-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PTSans-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PTSans-Bold/PTSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSans-Bold/PTSans-Bold.woff") format("woff"), url("../fonts/PTSans-Bold/PTSans-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PTSans-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PTSans-Regular/PTSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSans-Regular/PTSans-Regular.woff") format("woff"), url("../fonts/PTSans-Regular/PTSans-Regular.ttf") format("truetype"); }

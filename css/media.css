@@ -1,0 +1,268 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media (max-width : 1200px) {
+	.slider_text {
+		font-size: 38px;
+	}
+	table {
+		margin: 0;
+		width: 100%;
+	}
+	.table_2{
+		margin-bottom: 40px;
+	}
+	.callback .button {
+		margin-left: 0;
+	}
+	header .nav li {
+		font-size: 16px;
+		padding: 0 5px ;
+		margin: 0;
+	}
+
+}
+/* Medium Devices, Desktops */
+@media (max-width : 992px) {
+.backheader {
+    height: 137px;
+
+	.slider_text {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	.usage_text {
+		padding-bottom: 24px;
+	}
+	.scheme_img {
+		position: relative; }
+		.scheme_img {
+			margin: 40px;
+		}
+		.scheme_lable {
+			position: static;
+			;
+		}
+		.scheme_img_1 {
+			text-align: center;
+		}
+		.scheme_img_1 img {
+			display: inline-block;
+			width: 80%;
+		}
+		.scheme_table {
+			margin-left: 14vw;
+			margin-bottom: 40px;
+		}
+		.map {
+			background-position: center center;
+			background-size: auto auto; }
+			header .nav li {
+				font-size: 16px;
+				padding: 0;
+				margin: 0;
+			}
+
+/* 			header .logo {
+	position: absolute;
+	top: 0;
+	left: 1vw;
+	} */
+	header .logo img {
+		width: 118px;
+	}				
+}
+
+/* Small Devices, Tablets */
+@media (max-width : 768px) {
+	.slider_text {
+		font-size: 27px;
+		padding-left: 65px;
+	}
+
+	header .nav li {
+		font-size: 16px;
+		line-height: 32px;
+		display: inline-block;
+		margin: 0 5px; 
+		padding: 0;
+		margin: 0;
+	}
+	.phone_main {
+		display: none;
+	}
+	table {
+		min-width: 0px
+	}
+	header .logo {
+		margin: 25px 0;
+	}
+	header .logo img {
+		width: 75px;
+	}
+	.video h2 {
+		margin: 30px 0;
+	}
+	.deliver {
+		padding-bottom: 30px;
+	}
+	.deliver h2 {
+		margin: 30px 0;
+	}
+	.deliver p {
+		font-size: 20px;
+	}
+
+	.deviver_col img {
+		width: 50%;
+	}
+	.plus_row_1 {
+		padding-bottom: 20px;
+	}
+
+	.plus_row_2 {
+		padding-bottom: 30px;
+	}
+}
+
+
+@media (max-width : 575px) {
+	.nav_button {
+		display: block;
+	}
+	.nav{
+		display: none;
+		flex-direction: column;
+		align-items: baseline;
+
+	}
+	.nav.active {
+		display: flex;
+		padding-left: 3vw;
+	}
+	header .logo {
+		position: relative;
+		top: 0;
+		left: 3vw;
+	} 
+	.plus_row_1 {
+		padding-bottom: 10px;
+	}
+
+	.plus_row_2 {
+		padding-bottom: 30px;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media (max-width : 480px) {
+	.nav_button {
+		top: -77px; 
+	}
+	.owl-dots {
+		bottom: 30px; 
+	}
+	.slider_text {
+		font-size: 23px;
+		padding-left: 40px;
+		line-height: 30px;
+		top: 15%;
+	}
+	#usage {
+		padding-bottom: 30px;
+	}
+	.phone_main {
+		display: none;
+	}
+	.logo img {
+		width: 30%;
+		height: 30%;
+	}
+	header .logo {
+		display: block;
+		position: relative;
+		padding-bottom: 5px;
+	}
+	header .logo img {
+		width: 75px;
+	}
+	h2 {
+		font-size: 20px;
+		margin: 25px 0;
+	}
+	img {
+		width: 22vw;
+	}
+	.plus_row_1 {
+		padding-bottom: 10px;
+	}
+
+	.plus_row_2 {
+		padding-bottom: 30px;
+	}
+	.callback .h p {
+		font-size: 24px;
+	}
+	.callback .callback_row{
+		padding: 20px 0;
+	}
+	.map .contacts {
+		padding: 8px 0;
+	}
+	.map .contacts p {
+		padding: 0;
+	}
+	.map .phone {
+		font-size: 22px;
+	}
+	.map .mail, .map .adress {
+		font-size: 18px;
+	}
+
+	.wow {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media (max-width : 320px) {
+	.owl-dots {
+		bottom: 20px; 
+	}
+	.slider_text {
+		font-size: 20px;
+		padding-left: 30px;
+		line-height: 27px;
+		top: 15%;
+	}
+	h2 {
+		font-size: 21px;
+	}
+	#usage {
+		padding-bottom: 0;
+	}
+	.callback .h p {
+		font-size: 20px;
+	}
+}
+
